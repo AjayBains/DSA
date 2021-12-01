@@ -123,11 +123,4 @@ class LinkedList {
   }
 }
 
-const node1 = new Node(22);
-const myLinkedList = new LinkedList(5);
-myLinkedList.push(6);
-myLinkedList.push(7);
-myLinkedList.push(78);
-myLinkedList.get(2);
-myLinkedList.set(2, 79);
-myLinkedList.get(2);
+let myLinkedList = new LinkedList(22);
